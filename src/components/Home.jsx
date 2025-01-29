@@ -11,15 +11,15 @@ const Home = () => {
          <p className='text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit, a rem quo corrupti ad cum nesciunt vel veniam <br /> esse molestias voluptas aliquam tempore culpa. Quasi quae magnam eaque odio?</p>
         </div>
 
-        <div className='m-4  p-2'>
-          <button className=' rounded-full px-5 md:px-7 py-2 mr-4 inline-flex items-center bg-blue-500'>lets talk <GoArrowUpRight /></button>
-          <button className='rounded-full px-5 md:px-7 py-2 mr-4 inline-flex items-center'>explore our products <GoArrowUpRight /></button>
+        <div className='m-4 p-2 flex text-capitalize'>
+          <button className='rounded-full px-5 md:px-7 py-2 mr-4 flex items-center bg-blue-500 flex-nowrap whitespace-nowrap'>lets talk <GoArrowUpRight /></button>
+          <button className='rounded-full px-5 md:px-7 py-2 mr-4 flex items-center border flex-nowrap whitespace-nowrap'>explore our products <GoArrowUpRight /></button>
         </div>
 
       </div>
 
       <div className='rounded-md flex justify-center'>
-         <img src={HomeImg} alt="" className='rounded-md w-[90%]'/>
+         <img src={HomeImg} alt="" className='rounded-md  w-[80%] h-[500px] object-contain'/>
       </div>
 
     </div>
