@@ -1,11 +1,10 @@
-
+import Navbar from './components/Navbar'
 import './App.css'
 
 function App() {
-
   return (
-     <div>
-      this is app compo
+     <div className='w-full'>
+      <Navbar />
      </div>
   )
 }
