@@ -30,7 +30,7 @@ const Services = () => {
         {imgText.map((item, index) => (
           <div
             key={index}
-            className="flex items-start gap-4 bg-white shadow-lg rounded-lg overflow-hidden p-4 transition-transform transform hover:scale-105 hover:shadow-2xl ease-in duration-300"
+            className="flex items-start gap-4 bg-white shadow-lg rounded-lg overflow-hidden p-4 transition-transform transform hover:scale-105 hover:shadow-2xl ease-in duration-300 cursor-pointer"
           >
             <img
               src={serviceImg[index]}

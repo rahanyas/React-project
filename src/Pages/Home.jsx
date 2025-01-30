@@ -9,12 +9,12 @@ const Home = () => {
       <div className='p-4 md:mb-2'>
         <div className='sansFont'>
          <h1 className='text-[50px] md:text-[64px] capitalize '>your trusted partner in <br /> cooling solution</h1>
-         <p className='text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit, a rem quo corrupti ad cum nesciunt vel veniam <br /> esse molestias voluptas aliquam tempore culpa. Quasi quae magnam eaque odio?</p>
+         <p className='text-[18px] m-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit, a rem quo corrupti ad cum nesciunt vel veniam <br /> esse molestias voluptas aliquam tempore culpa. Quasi quae magnam eaque odio?</p>
         </div>
 
         <div className='p-2 flex text-capitalize'>
-          <button className='rounded-full px-5 md:px-7 py-2 mr-4 flex items-center bg-blue-500 flex-nowrap whitespace-nowrap gap-2 cursor-pointer'>lets talk <GoArrowUpRight /></button>
-          <button className='rounded-full px-5 md:px-7 py-2 mr-4 flex items-center border flex-nowrap whitespace-nowrap gap-2 cursor-pointer'>explore our products <GoArrowUpRight /></button>
+          <button className='rounded-full px-5 md:px-7 py-2 mr-4 flex items-center bg-blue-500 flex-nowrap whitespace-nowrap gap-2 cursor-pointer '>lets talk <GoArrowUpRight /></button>
+          <button className='rounded-full px-5 md:px-7 py-2 mr-4 flex items-center border flex-nowrap whitespace-nowrap gap-2 cursor-pointer hover:bg-gray-300 transition ease-in duration-300 '>explore our products <GoArrowUpRight /></button>
         </div>
 
       </div>

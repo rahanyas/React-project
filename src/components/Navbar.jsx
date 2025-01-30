@@ -33,7 +33,7 @@ const Navbar = () => {
             {item.name}
           </NavLink>
         ))}
-        <button className="uppercase border rounded-full px-4 py-2 flex items-center gap-2 hover:bg-blue-500 transition ease-in duration-300 hover:text-white">
+        <button className="uppercase border rounded-full px-4 py-2 flex items-center gap-2 hover:bg-blue-500 transition ease-in duration-300 hover:text-white cursor-pointer">
           Lets Talk
           <GoArrowUpRight />
         </button>
@@ -64,7 +64,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <button className="mt-5 uppercase border border-white rounded-full px-6 py-3 flex items-center gap-2 text-white hover:bg-white hover:text-black transition ease-in duration-300">
+          <button className="mt-5 uppercase border border-white rounded-full px-6 py-3 flex items-center gap-2 text-white hover:bg-white hover:text-black transition ease-in duration-30 cursor-pointer">
             Lets Talk
             <GoArrowUpRight />
           </button>
