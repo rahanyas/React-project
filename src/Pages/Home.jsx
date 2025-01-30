@@ -1,5 +1,7 @@
 import HomeImg from '../assets/progbiz-img/img-1.png'
 import { GoArrowUpRight } from "react-icons/go";
+import Services from '../components/Services';
+import Achievments from '../components/Achievments';
 
 const Home = () => {
   return (
@@ -19,7 +21,10 @@ const Home = () => {
       <div className='rounded-md flex justify-center'>
          <img src={HomeImg} alt="" className='rounded-md  w-[80%] h-full object-fill'/>
       </div>
+        
+      <Services />
 
+      <Achievments />
     </div>
   )
 };

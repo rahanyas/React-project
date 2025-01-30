@@ -24,7 +24,7 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4 capitalize">{section.title}</h3>
               <ul className="space-y-2">
                 {section.item.map((link, idx) => (
-                  <li key={idx}><a href="#" className="hover:text-white">{link}</a></li>
+                  <li key={idx}><a href="#" className="hover:text-white capitalize">{link}</a></li>
                 ))}
               </ul>
             </div>

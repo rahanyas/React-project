@@ -10,3 +10,15 @@ html,body{
 .sansFont {
   font-family: 'DM Sans', sans-serif;
 }
+
+.serviceBtn {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  gap: 4;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 4px 4px;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
