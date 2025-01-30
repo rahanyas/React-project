@@ -3,6 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Services from '../components/Services';
 import Achievments from '../components/Achievments';
 import Testimonials from '../components/Testimonials';
+import Clients from '../components/Clients ';
 
 const Home = () => {
   return (
@@ -28,6 +29,8 @@ const Home = () => {
       <Achievments />
 
       <Testimonials />
+
+      <Clients />
     </div>
   )
 };
