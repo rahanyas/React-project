@@ -2,6 +2,7 @@ import HomeImg from '../assets/progbiz-img/img-1.png'
 import { GoArrowUpRight } from "react-icons/go";
 import Services from '../components/Services';
 import Achievments from '../components/Achievments';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
@@ -25,6 +26,8 @@ const Home = () => {
       <Services />
 
       <Achievments />
+
+      <Testimonials />
     </div>
   )
 };

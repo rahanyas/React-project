@@ -1,12 +1,15 @@
 import { GoArrowUpRight } from "react-icons/go";
+
+// imported card images and img title and lorem text
 import { imgText, lorem, serviceImg } from "../utils/serviceImgTxt";
 
 const Services = () => {
   return (
     <div className="mt-10 p-6 grid gap-8 lg:grid-cols-3">
-      {/* Left Section */}
+     
       <div className="col-span-1">
         <h1 className="text-2xl md:text-4xl sansFont text-blue-500">Our Services</h1>
+        {/* headin */}
         <h2 className="text-xl md:text-2xl mt-2 sansFont text-gray-700">
           Professional Services Tailored for You
         </h2>
@@ -15,23 +18,27 @@ const Services = () => {
           sunt, iure ipsum dicta consequatur. Nihil, inventore atque velit
           repellendus harum corrupti quam voluptate laboriosam.
         </p>
+
+        {/* buttons */}
         <div className="flex flex-wrap gap-4 mt-6">
-          <button className="serviceBtn">
+          <button className="serviceBtn hover:bg-gray-300 transition ease-in duration-300">
             Installation Air Condition <GoArrowUpRight />
           </button>
-          <button className="serviceBtn">
+          <button className="serviceBtn hover:bg-gray-300 transition ease-in duration-300">
             Maintenance <GoArrowUpRight />
           </button>
         </div>
       </div>
 
-      {/* Right Section */}
+      {/* container for card */}
       <div className="col-span-2 grid md:grid-cols-2 gap-6">
         {imgText.map((item, index) => (
+          // card
           <div
             key={index}
             className="flex items-start gap-4 bg-white shadow-lg rounded-lg overflow-hidden p-4 transition-transform transform hover:scale-105 hover:shadow-2xl ease-in duration-300 cursor-pointer"
           >
+            {/* card img */}
             <img
               src={serviceImg[index]}
               alt="service-img"

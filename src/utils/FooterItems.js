@@ -11,4 +11,6 @@ export const footerItems = [
     title : 'info',
     item : ['contact us', 'privacy policy', 'terms of services']
   }
-]
+];
+
+// exportd this into footer components

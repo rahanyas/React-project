@@ -18,3 +18,5 @@ export const serviceImg = [
    img3,
    img4
 ] 
+
+// exported this into service component

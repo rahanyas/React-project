@@ -1,4 +1,6 @@
+// imported product from utils/productimg to get  img and title  for product
 import { product } from "../utils/ProductImg";
+
 import { GoArrowUpRight } from "react-icons/go";
 
 const Products = () => {
@@ -6,7 +8,9 @@ const Products = () => {
     <div className="p-3">
          <h1 className="sansFont capitalize text-blue-500 md:mt-9 ml-9">our products</h1>
          <div className="p-3 mt-4 mx-3">
-      {/* product heading */}
+
+         {/* product heading */}
+
           <h1 className="sansFont capitalize text-[30px] md:text-[50px] mb-5">explore our top <br /> categories</h1>
 
           {/* decription */}
@@ -20,10 +24,13 @@ const Products = () => {
             // card container
         <div 
         key={index} 
-        className="p-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/30 cursor-pointer"
+        className="p-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/30 cursor-pointer h-fit"
       >
+        {/* card img */}
         <img src={item.img} alt="product-img" className="rounded" /> 
-        <h4 className="capitalize sansFont flex items-center gap-2 mt-3">
+
+        {/* card title */}
+        <h4 className="capitalize sansFont flex items-center gap-2 mt-3 whitespace-nowrap">
           {item.title} <GoArrowUpRight />
         </h4>
       </div>
