@@ -9,6 +9,7 @@ function App() {
   const About = React.lazy(() => import('./Pages/About'));
   const Products = React.lazy(() => import('.//Pages/Products'));
   const Contact = React.lazy(() => import('./Pages/Contact'));
+  const Blog = React.lazy(() => import('./Pages/Blog'))
 
   return (
      <div className='w-full'>
@@ -20,6 +21,7 @@ function App() {
                <Route path='/about' element={<About/>}/>
                <Route path='/products' element={<Products/>}/>
                <Route path='/contact' element={<Contact/>} />
+               <Route path='/blog' element={<Blog/>}/>
             </Route>
           </Routes>
         </Router>

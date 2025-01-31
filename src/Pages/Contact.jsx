@@ -1,10 +1,9 @@
+// lets connect section
 
 import { FaArrowRightLong } from "react-icons/fa6";
 const Contact = () => {
   return (
     <div>
-
-   
     <div className="grid grid-cols-1 md:grid-cols-2 contactBg bg-cover bg-center bg-local bg-origin-content overflow-hidden h-4/5 md:h-screen m justify-center items-center">
 
        <div className="max-h-fit mt-11 p-4 mx-3">
@@ -21,7 +20,7 @@ const Contact = () => {
        <div className="w-fit mx-auto bg-white p-6 rounded-lg mb-3">
         <h2 className="capitalize sansFont text-2xl ml-6 md:mt-9 w-fit">let&apos;s connect</h2>
           <form action="" className="text-black py-11 px-9 ">
-            <input type="text" placeholder="enter your name" className="outline-none bg-gray-200 p-2 capitalize sansFont mr-4 rounded-lg"/>
+            <input type="text" placeholder="enter your name" className="outline-none bg-gray-200 p-2 capitalize sansFont mr-4 rounded-lg mb-2 md:mb-0"/>
             <input type="email" placeholder="enter your email" className="outline-none bg-gray-200 p-2 capitalize sansFont mb-2 rounded-lg"/>
             <br />
             <input type="text"  placeholder="enter your phone number" className="outline-none bg-gray-200 p-2 capitalize sansFont whitespace-nowra w-[250px] mt-4 rounded-lg"/>

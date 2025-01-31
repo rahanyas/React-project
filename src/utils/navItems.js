@@ -8,6 +8,10 @@ export const navItem = [
   path : "/about"
 },
 {
+   name : 'services',
+   path : "/services"
+},
+{
   name : "products",
   path : "/products"
 },
