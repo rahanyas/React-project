@@ -22,3 +22,8 @@ html,body{
   white-space: nowrap;
   text-transform: capitalize;
 }
+
+.contactBg {
+  background-image: url(./assets//progbiz-img/img-17.png);
+  background-repeat:no-repeat;
+}

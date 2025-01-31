@@ -8,11 +8,11 @@ const ClientGrid = () => {
         Clients & Friends
       </h2>
       <p className="text-[40px] md:text-[50px] capitalize sansFont mb-8 md:ml-11">We&#39;ve worked <br /> with lovely clients</p>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-2">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 ">
         {clientsDetails.map((client, index) => (
           <div
             key={index}
-            className="flex items-center justify-center border rounded-lg p-4 shadow-md bg-white hover:shadow-lg transition md:w-[200px] md:h-[100px] md:mx-auto"
+            className="flex items-center justify-center border rounded-lg p-4 shadow-md bg-white hover:shadow-lg transition md:w-[200px] md:h-[100px] md:mx-auto cursor-pointer"
           >
             <img
               src={client.logo}

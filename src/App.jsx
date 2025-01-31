@@ -7,7 +7,9 @@ import './App.css'
 
 function App() {
   const About = React.lazy(() => import('./Pages/About'));
-  const Products = React.lazy(() => import('.//Pages/Products'))
+  const Products = React.lazy(() => import('.//Pages/Products'));
+  const Contact = React.lazy(() => import('./Pages/Contact'));
+
   return (
      <div className='w-full'>
       <Suspense fallback={<h1>loading...</h1>}>
@@ -17,6 +19,7 @@ function App() {
                <Route  index element={<Home/>}/>
                <Route path='/about' element={<About/>}/>
                <Route path='/products' element={<Products/>}/>
+               <Route path='/contact' element={<Contact/>} />
             </Route>
           </Routes>
         </Router>

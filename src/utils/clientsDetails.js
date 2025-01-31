@@ -17,3 +17,5 @@ export const clientsDetails = [
   { name: "Siemens", logo: img5 },
   { name: "Whirlpool", logo: img8 },
 ];
+
+//for client section imgs 
