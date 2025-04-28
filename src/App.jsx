@@ -1,4 +1,4 @@
-import Layout from './Layout/MainLayout';
+ import Layout from './Layout/MainLayout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import React , {Suspense} from 'react';
